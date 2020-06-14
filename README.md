@@ -16,9 +16,9 @@ use:
 	
 The arguments are:
 
-(1) name you want to give the cronjob in your monitoring (above "ddnss-update")
+1) name you want to give the cronjob in your monitoring (above "ddnss-update")
+2) path to the script to execute. (above "/hd/ddnss-update.sh")
 
-(2) path to the script to execute. (above "/hd/ddnss-update.sh")
 
 
 NOTE: As of now this wrapper script does not support any arguments. You can easily put the arguments inside the script you are calling instead.
@@ -82,4 +82,4 @@ The file "cron_ddnss-update.prom" from the above example should be in this folde
 
 To write the wrapper script I used this as reference:
 
-(https://phrye.com/code/periodic-monitoring/)
+https://phrye.com/code/periodic-monitoring/
